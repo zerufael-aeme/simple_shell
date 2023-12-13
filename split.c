@@ -98,7 +98,7 @@ char **_strtok(char *line, char *delim)
 		ptr[t][l] = '\0';
 	}
 	ptr[t] = NULL;
-	pr[t + 1] = NULL;
+	ptr[t + 1] = NULL;
 
 	return (ptr);
 }
